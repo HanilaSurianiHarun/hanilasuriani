@@ -1,0 +1,408 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Montserrat;
+}
+
+nav {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100px;
+	padding: 10px 90px;
+	box-sizing: border-box;
+	background: rgba(0, 0, 0, 0.6);
+	border-bottom: 1px solid none;
+}
+
+nav .logo {
+	padding: 22px 20px;
+	height: 80px;
+	float: left;
+	font-size: 28px;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: floralwhite;
+}
+
+nav ul {
+	list-style: none;
+	float: right;
+	margin: 0;
+	padding: 0;
+	display: flex;
+}
+
+nav ul li a {
+	line-height: 80px;
+	color: white;
+	padding: 12px 30px;
+	text-decoration: none;
+	font-size: 14px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+nav ul li a:hover {
+	background: rgba(0, 0, 0, 0.7);
+	border-radius: 6px;
+	background-color: white;
+	color: brown;
+}
+
+section {
+	width: 100%;
+	height: 100vh ;
+	background: url(images/brown.jpg);
+	background-size: cover;
+	background-position: center;
+
+}
+
+.welcome-text {
+	position: absolute;
+	width: 600px;
+	height: 300px;
+	margin: 20% 30%;
+	text-align: center;
+}
+
+.welcome-text h1 {
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 45px;
+	margin-top: 10px;
+	margin-bottom: 90px;
+	font-weight: bold;
+	font-family: Montserrat;
+	background-color: floralwhite;
+	color: #bd7e4a;
+}
+
+.welcome-text a{
+	border: 1px solid brown;
+	padding: 15px 40px;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	display: inline-block;
+	color: brown;
+}
+
+.welcome-text a:hover{
+	background-color: #d4b588;
+	color: brown;
+}
+
+.box{
+	width: 500px;
+	background: rgba(0, 0, 0, 0.4);
+	padding: 40px;
+	text-align: center;
+	margin: auto;
+	margin-top: 5%;
+	color: 	white;
+	font-family: Montserrat;
+}
+
+.box-img{
+	border-radius: 100%;
+	width: 400px;
+	height: 550px;
+}
+
+.box h1{
+	font-size: 40px;
+	letter-spacing: 5px;
+	font-weight: bold;
+}
+
+.box h5{
+	font-size: 15px;
+	letter-spacing: 3px;
+	font-weight: 100;
+}
+
+.box p{
+	text-align: justify;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.wrapper{
+	margin-top: 10%;
+}
+
+.wrapper h1{
+	font-size: 40px;
+	font-family: Montserrat;
+	margin-top: 10px;
+	margin-bottom: 90px;
+	text-align: center;
+	text-transform: uppercase;
+	background-color: floralwhite;
+	color: #bd7e4a;
+}
+
+.school{
+	display: flex;
+	text-align: center;
+	width: auto;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+
+.school .school_name{
+	background: floralwhite;
+	margin: 10px;
+	margin-bottom: 50px;
+	width: 300px;
+	padding: 65px;
+	line-height: 20px;
+	color: floralwhite;
+	position: relative;
+}
+
+.school .school_name h3{
+	color: black;
+	font-family: Montserrat;
+	font-size: 23px;
+	margin: 30px 0;
+}
+
+.school .school_name p.name{
+	color: black;
+	font-family: Montserrat;
+	font-size: 13px;
+	margin: 12px 0;
+}
+
+.school .school_name .sch_img{
+	width: 190px;
+	height: 100px;
+	border-radius: 50%;
+	position: absolute; 
+	top: -50px;
+	left: 50%;
+	transform: translateX(-50%);
+	background: white;
+}
+
+.school .school_name .sch_img img{
+	width: 100px;
+	height: 100px;
+	padding: 10px;
+}
+
+h2{
+	color: #bd7e4a;
+	font-family: Montserrat;
+	text-align: center;
+	font-size: 50px;
+	font-weight: strong;
+	margin-top: 10%;
+	text-transform: uppercase;
+	background-color: floralwhite;
+}
+
+
+#slider {
+	overflow: hidden;
+	margin: 10%;
+	transform: none;
+}
+
+#slider figure{
+	position: relative;
+	width: 500%;
+	margin: 0;
+	animation: 20s slider infinite;
+}
+
+#slider figure img{
+	float: left;
+	width: 20%;
+}
+
+@keyframes slider{
+	0%{
+		left: 0;
+	}
+	20%{
+		left: 0;
+	}
+	25%{
+		left: -100%;
+	}
+	35%{
+		left: -100%;
+	}
+	40%{
+		left: -200%;
+	}
+	45%{
+		left: -200%;
+	}
+	50%{
+		left: -300%;
+	}
+	55%{
+		left: -300%;
+	}
+	60%{
+		left: -300%;
+	}
+	70%{
+		left: -300%;
+	}
+
+	75%{
+		left: -400%;
+	}
+}
+
+
+.hero{
+	margin-top: 10%;
+}
+
+h1 {
+	font-size: 40px;
+	font-family: Montserrat;
+	margin-top: 10%;
+	text-align: center;
+	text-transform: uppercase;
+	background-color: floralwhite;
+	color: #bd7e4a;
+}
+
+div.social-links{
+	justify-content: center;
+}
+
+.social-links{
+	display: flex;
+	margin-top: 14%;
+}
+
+.social-links a{
+	text-align: center;
+	text-decoration: none;
+	color: #000;
+	box-shadow: 0 0 20px 10px rgba(0, 0, 0, 0.05);
+	border-radius: 10%;
+	overflow: hidden;
+	margin: 0 30px;
+	position: relative;
+	transition: transform 0.5s;
+}
+
+.social-links a .fab{
+	font-size: 30px;
+	line-height: 80px;
+	position: relative;
+	z-index: 10;
+	transition: color 0.5s;
+}
+
+.social-links a::after{
+	content: '';
+	width: 100%;
+	height: 100%;
+	top: -90px;
+	left: 0px;
+	position: absolute;
+	transition: 0.5s;
+}
+
+.social-links a:hover::after{
+	top: 0;
+}
+
+.social-links a:hover .fab{
+	color: white;
+}
+
+.social-links a:hover{
+	transform: translateY(-10px);
+}
+
+.container{
+	position: relative;
+	min-height: 100vh;
+}
+
+.container .video-container{
+	display: flex;
+	flex-wrap: wrap;
+	gap: 15px;
+	justify-content: center;
+	padding: 10px;
+}
+
+.container .video-container .video{
+	height: 250px;
+	width: 350px;
+	margin: 5%;
+	border: 5px solid #fff;
+	border-radius: 5px;
+	box-shadow: 0 5px 15px rgba(0, 0, 0, 0.7);
+	cursor: pointer;
+	overflow: hidden;
+}
+
+.container .video-container .video video{
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+	transition: .2s linear;
+}
+
+.container .video-container .video:hover video{
+	transform: scale(1.1);
+}
+
+.container .popup-video{
+	position: fixed;
+	top: 0;  left: 0;
+	z-index: 100;
+	background: rgba(0, 0, 0, 0.8);
+	height: 100%;
+	width: 100% ;
+	display: none;
+}
+
+.container .popup-video video{
+	position: absolute;
+	top: 50%;  left: 50%;
+	width: 500px;
+	border-radius: 5px;
+	border: 3px solid #fff;
+	object-fit: cover;
+	justify-content: center;
+}
+
+.container .popup-video span{
+	position: absolute;
+	top: 5px;  right: 20px;
+	font-size: 50px;
+	color: #fff;
+	font-weight: bolder;
+	z-index: 100;
+	cursor: pointer;
+}
+
+@media (max-width: 768px){
+	.container .popup-video video{
+		width: 95%;
+	}
+}
